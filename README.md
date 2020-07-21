@@ -11,7 +11,7 @@ Here are some ideas to get you started:
 👯 I’m looking to collaborate on nothing. \
 🤔 I’m looking for help with nothing. \
 💬 Ask me about nothing. \
-📫 How to reach me: Leonezz@nuaa.edu.cn \
+📫 How to reach me: Leonez@nuaa.edu.cn \
 😄 Pronouns: Lazy dog. \
 ⚡ Fun fact: nothing. 
 
