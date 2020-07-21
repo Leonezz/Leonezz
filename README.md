@@ -13,5 +13,5 @@ Here are some ideas to get you started:
 💬 Ask me about nothing. \
 📫 How to reach me: Leonezz@nuaa.edu.cn \
 😄 Pronouns: Lazy dog. \
-⚡ Fun fact: nothing. \
+⚡ Fun fact: nothing. 
 
