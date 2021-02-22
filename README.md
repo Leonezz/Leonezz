@@ -6,6 +6,6 @@
 Here are some ideas to get you started:
 
 -->
-💬 Ask me about C++/Qt. 
+💬 Ask me about C++/Qt. \
 📫 How to reach me: Leonez@nuaa.edu.cn 
 
