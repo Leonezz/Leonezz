@@ -7,7 +7,7 @@ Here are some ideas to get you started:
 
 -->
 
-This is Leonezz, student in physics and cs, and a man wants an interesting life.
+This is Leonezz, student in physics and cs.
 
 This is my blog website: https://blog.zhuwenq.icu
 
