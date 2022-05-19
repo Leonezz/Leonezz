@@ -16,7 +16,14 @@ This is my blog website: https://blog.zhuwenq.icu
 
 <!--START_SECTION:waka-->
 
-`I am a lazy dog.`
+```text
+C++           3 hrs 17 mins   █████████████████████▒░░░   85.23 %
+Haskell       17 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.41 %
+Python        14 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.43 %
+C             1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 %
+Objective-C   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 %
+Git           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
+```
 
 <!--END_SECTION:waka-->
 
