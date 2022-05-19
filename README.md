@@ -30,4 +30,4 @@ Git           0 secs          ░░░░░░░░░░░░░░░░�
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true"/>
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact"/>
 
-![GitHub Snake Light](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-dark.svg#gh-light-mode-only)![GitHub Snake dark](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![GitHub Snake Light](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-light.svg#gh-light-mode-only)![GitHub Snake dark](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
