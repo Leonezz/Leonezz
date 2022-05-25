@@ -17,8 +17,10 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-C++           4 hrs 4 mins    █████████████████████████   99.96 %
-Objective-C   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
+TeX        3 hrs 23 mins   ████████████▓░░░░░░░░░░░░   50.08 %
+C++        3 hrs 19 mins   ████████████▒░░░░░░░░░░░░   48.95 %
+BibTeX     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.97 %
+Makefile   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->
