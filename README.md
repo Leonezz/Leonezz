@@ -17,7 +17,9 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+C++     16 mins         ████████████████████████░   96.07 %
+C       0 secs          █░░░░░░░░░░░░░░░░░░░░░░░░   03.54 %
+Other   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 %
 ```
 
 <!--END_SECTION:waka-->
