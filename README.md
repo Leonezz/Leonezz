@@ -17,12 +17,12 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-Python     26 hrs 3 mins   ██████████████████████░░░   88.50 %
-Bash       2 hrs 29 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.45 %
-JSON       52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.95 %
-Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
-Markdown   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+Python     29 hrs 18 mins  ███████████████████████░░   91.74 %
+Bash       1 hr 49 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.73 %
+JSON       39 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.05 %
+Markdown   8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 %
 YAML       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
 
 <!--END_SECTION:waka-->
