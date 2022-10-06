@@ -17,8 +17,7 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-Python   6 mins          █████████████████████████   99.51 %
-TeX      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 %
+Python   6 mins          █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
