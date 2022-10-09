@@ -17,7 +17,9 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+C++          34 mins         ████████████████▓░░░░░░░░   66.80 %
+Git Config   14 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.23 %
+Other        1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %
 ```
 
 <!--END_SECTION:waka-->
