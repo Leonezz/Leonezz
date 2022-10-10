@@ -17,9 +17,10 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-C++          34 mins         ████████████████▓░░░░░░░░   66.80 %
-Git Config   14 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.23 %
-Other        1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %
+C++          38 mins         ████████████▓░░░░░░░░░░░░   51.13 %
+Python       18 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.51 %
+Git Config   14 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.16 %
+Other        1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.78 %
 ```
 
 <!--END_SECTION:waka-->
