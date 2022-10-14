@@ -17,8 +17,8 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-Python       10 hrs 44 mins  ████████████████▒░░░░░░░░   65.01 %
-TeX          4 hrs 16 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.92 %
+Python       10 hrs 44 mins  ████████████████▒░░░░░░░░   65.02 %
+TeX          4 hrs 16 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.91 %
 C++          38 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 %
 Makefile     33 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 %
 Git Config   14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.44 %
