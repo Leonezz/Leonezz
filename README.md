@@ -17,12 +17,12 @@ This is my blog website: https://blog.zhuwenq.icu
 <!--START_SECTION:waka-->
 
 ```text
-TeX          5 hrs 46 mins   ██████████████████░░░░░░░   71.76 %
-Python       1 hr 17 mins    ████░░░░░░░░░░░░░░░░░░░░░   15.98 %
-Markdown     29 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.10 %
-Makefile     7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
-Batchfile    7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.58 %
-Other        6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
+TeX          4 hrs 16 mins   ████████████████▒░░░░░░░░   65.23 %
+Python       1 hr 17 mins    █████░░░░░░░░░░░░░░░░░░░░   19.67 %
+Markdown     29 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 %
+Makefile     7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.01 %
+Batchfile    7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
+Other        6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
 ```
 
 <!--END_SECTION:waka-->
