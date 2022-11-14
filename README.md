@@ -12,7 +12,7 @@ This is Leonezz, student in physics and cs.
 This is my blog website: https://blog.zhuwenq.icu
 
 💬 Ask me about C++/Qt. \
-📫 How to reach me: Leonez@nuaa.edu.cn
+📫 How to reach me: zhuwenqa@outlook.com
 
 <!--START_SECTION:waka-->
 
