@@ -27,8 +27,8 @@ JSON       16 mins         ▒░░░░░░░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-<img width="420px" align="left" src="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true&theme=vue"/>
-<img width="320px" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact&theme=vue"/>
+<img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true&theme=vue"/>
+<img width="340px" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact&theme=vue"/>
 
 ![GitHub Snake Light](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-light.svg#gh-light-mode-only)![GitHub Snake dark](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
