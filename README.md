@@ -7,12 +7,15 @@ Here are some ideas to get you started:
 
 -->
 
-This is Leonezz, student in physics and cs.
+Hi, I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction. Before my postgraduate's study, I graduate from the optical major of physics faculty.
 
-This is my blog website: https://blog.zhuwenq.icu
+In addition to my academic study, I am a person of wide interests, my interests include modern C++, embedded systems, advanced deep learning technics, reading books, photography and making coffee.
 
-💬 Ask me about C++/Qt. \
-📫 How to reach me: zhuwenqa@outlook.com
+💬 You can ask me about C++/Qt, NLP/DeepLearning.
+
+📫 Contact me through:
+
+- Email: zhuwenqa@outlook.com
 
 <!--START_SECTION:waka-->
 
