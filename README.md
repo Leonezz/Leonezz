@@ -20,12 +20,12 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-Python     16 hrs          ███████████████░░░░░░░░░░   59.89 %
-TeX        9 hrs 1 min     ████████▒░░░░░░░░░░░░░░░░   33.77 %
-Markdown   1 hr 2 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.88 %
-JSON       17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.08 %
-YAML       15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.95 %
-CSV        3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
+Python     18 hrs 31 mins  ███████████████░░░░░░░░░░   59.40 %
+TeX        10 hrs 14 mins  ████████▒░░░░░░░░░░░░░░░░   32.85 %
+Markdown   1 hr 41 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.44 %
+CSV        22 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.19 %
+JSON       17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.93 %
+Other      1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
 ```
 
 <!--END_SECTION:waka-->
