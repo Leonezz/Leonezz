@@ -20,9 +20,7 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-Markdown   1 hr 19 mins    ████████████████████████░   95.57 %
-TeX        3 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.69 %
-YAML       0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.73 %
+Markdown   18 mins         █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
