@@ -20,7 +20,11 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+TeX          46 mins         ███████████████████████░░   91.78 %
+BibTeX       4 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.00 %
+Markdown     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
+Makefile     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
 
 <!--END_SECTION:waka-->
