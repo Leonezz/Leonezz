@@ -20,7 +20,10 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Markdown   1 hr 27 mins    ███████████████████████▒░   93.33 %
+C++        3 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.02 %
+JSON       2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.53 %
+Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
 ```
 
 <!--END_SECTION:waka-->
