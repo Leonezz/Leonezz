@@ -7,7 +7,7 @@ Here are some ideas to get you started:
 
 -->
 
-Hi, I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction. Before my postgraduate's study, I graduate from the optical major of physics faculty.
+Hi, I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction. Before my postgraduate's study, I graduate from the optical major.
 
 In addition to my academic study, I am also a person of wide interests, my interests include modern C++, embedded systems, advanced deep learning technics, reading books, watching movies, photography and making coffee.
 
