@@ -20,12 +20,12 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript   25 hrs 7 mins   ██████████████▓░░░░░░░░░░   58.74 %
-Markdown     8 hrs 4 mins    ████▓░░░░░░░░░░░░░░░░░░░░   18.87 %
-JavaScript   2 hrs 39 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.22 %
-JSON         2 hrs 19 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.43 %
-YAML         1 hr 50 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 %
-C++          50 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.97 %
+TypeScript   33 hrs 49 mins  ████████████████▓░░░░░░░░   66.71 %
+Markdown     5 hrs 39 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.15 %
+JavaScript   3 hrs 55 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 %
+JSON         2 hrs 25 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   04.77 %
+C++          1 hr 24 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.79 %
+YAML         1 hr 24 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.78 %
 ```
 
 <!--END_SECTION:waka-->
