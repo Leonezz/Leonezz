@@ -30,8 +30,29 @@ Assembly     16 mins         ▒░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-<img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true&theme=vue"/>
-<img width="360px" align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact&theme=vue"/>
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=Leonezz&count_private=true&show_icons=true&include_all_commits=true&theme=vue"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=Leonezz&show_icons=true" />
+</picture>
+
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&hide=TeX&layout=compact&theme=vue"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonezz&show_icons=true" />
+</picture>
 
 ![GitHub Snake Light](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-light.svg#gh-light-mode-only)![GitHub Snake dark](https://raw.githubusercontent.com/Leonezz/Leonezz/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
