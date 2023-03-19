@@ -20,12 +20,11 @@ In addition to my academic study, I am also a person of wide interests, my inter
 <!--START_SECTION:waka-->
 
 ```text
-Markdown   9 hrs 22 mins   █████████████▒░░░░░░░░░░░   53.64 %
-C          4 hrs 1 min     █████▓░░░░░░░░░░░░░░░░░░░   22.98 %
-TeX        2 hrs 57 mins   ████▒░░░░░░░░░░░░░░░░░░░░   16.95 %
-C++        1 hr 4 mins     █▓░░░░░░░░░░░░░░░░░░░░░░░   06.13 %
-Assembly   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
-Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+Markdown   9 hrs 22 mins   ██████████████░░░░░░░░░░░   56.62 %
+C          3 hrs 11 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.26 %
+TeX        2 hrs 57 mins   ████▒░░░░░░░░░░░░░░░░░░░░   17.89 %
+C++        58 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.91 %
+Assembly   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 %
 ```
 
 <!--END_SECTION:waka-->
