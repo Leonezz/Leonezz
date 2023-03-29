@@ -7,11 +7,13 @@ Here are some ideas to get you started:
 
 -->
 
-Hi, I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction. Before my postgraduate's study, I graduate from the optical major.
+I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction.
 
-In addition to my academic study, I am also a person of wide interests, my interests include modern C++, embedded systems, advanced deep learning technics, reading books, watching movies, photography and making coffee.
+I am also a person of passion in both technique and life, my passion involves modern C++, embedded systems, deep learning, reading books, watching movies, photography and making coffee.
 
-💬 You can ask me about C++/Qt, NLP/DeepLearning.
+I will graduate in March next year if it goes well, and I am currently in a job hunting, please check out my [cv](https://resume.zhuwenq.cc) if it may.
+
+💬 You can ask me about C++/Qt, NLP/Deep Learning.
 
 📫 Feel free to contact me through:
 
