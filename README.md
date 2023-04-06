@@ -22,11 +22,11 @@ I will graduate in March next year if it goes well, and I am currently in a job 
 <!--START_SECTION:waka-->
 
 ```text
-Markdown     9 hrs 18 mins   ████████████████████████▓   98.14 %
-C++          8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.50 %
-YAML         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
+Markdown     6 hrs 18 mins   ████████████████████████▒   97.28 %
+C++          8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.19 %
+YAML         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
 Batchfile    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 PowerShell   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
 
