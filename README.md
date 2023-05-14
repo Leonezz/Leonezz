@@ -22,11 +22,11 @@ I will graduate in March next year if it goes well, and I am currently in a job 
 <!--START_SECTION:waka-->
 
 ```text
-Other      41 hrs 38 mins  ████████████████████▓░░░░   82.59 %
-Markdown   5 hrs 27 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.84 %
-C++        3 hrs 12 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.36 %
+Other      41 hrs 40 mins  ████████████████████▓░░░░   83.33 %
+Markdown   5 hrs 1 min     ██▓░░░░░░░░░░░░░░░░░░░░░░   10.05 %
+C++        3 hrs 14 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.49 %
 JSON       3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
-Lua        2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->
