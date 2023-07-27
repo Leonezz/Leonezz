@@ -22,9 +22,9 @@ I will graduate in March next year if it goes well, and I am currently in a job 
 <!--START_SECTION:waka-->
 
 ```txt
-Other      27 hrs 50 mins  ███████████████████████░░   91.87 %
-C++        2 hrs 2 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.76 %
-Markdown   24 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 %
+Other      26 hrs 53 mins  ███████████████████████░░   92.43 %
+C++        1 hr 48 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.24 %
+Markdown   23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
 ```
 
 <!--END_SECTION:waka-->
