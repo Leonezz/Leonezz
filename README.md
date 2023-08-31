@@ -1,11 +1,6 @@
 ### Hi there 👋
 
-<!--
-**Leonezz/Leonezz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
--->
+[![](https://github-profile-trophy.vercel.app/?username=Leonezz)](https://github.com/Leonezz)
 
 I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction.
 
