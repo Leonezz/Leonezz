@@ -17,7 +17,10 @@ I will graduate in March next year if it goes well, and I am currently in a job 
 <!--START_SECTION:waka-->
 
 ```txt
-Other   3 hrs 47 mins   █████████████████████████   100.00 %
+Other    5 hrs 9 mins    ████████████████████████░   95.51 %
+JSON     8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.65 %
+Bash     5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.59 %
+Python   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
 ```
 
 <!--END_SECTION:waka-->
