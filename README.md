@@ -17,11 +17,8 @@ I will graduate in March next year if it goes well, and I am currently in a job 
 <!--START_SECTION:waka-->
 
 ```txt
-Other      43 hrs 37 mins  ██████████████████████▒░░   89.30 %
-Markdown   4 hrs 58 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.20 %
-Bash       13 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
-conf       1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
-zsh        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+Other      42 hrs 2 mins   █████████████████████▓░░░   86.64 %
+Markdown   6 hrs 29 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.36 %
 ```
 
 <!--END_SECTION:waka-->
