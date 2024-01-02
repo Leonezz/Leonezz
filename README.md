@@ -6,9 +6,10 @@ I am currently a postgraduate major in computer science, my research interests i
 
 I am also a person of passion in both technique and life, my passion involves modern C++, embedded systems, deep learning, reading books, watching movies, photography and making coffee.
 
-I will graduate in March next year if it goes well, and I am currently in a job hunting, please check out my [cv](https://resume.zhuwenq.cc) if it may.
-
-💬 You can ask me about C++/Qt, NLP/Deep Learning.
+Currently working on:
+- typescript
+- React
+- C++
 
 📫 Feel free to contact me through:
 
