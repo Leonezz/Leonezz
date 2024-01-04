@@ -18,8 +18,10 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other          33 hrs 22 mins  ████████████████████████▓   98.83 %
-Markdown       23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
+Other          31 hrs 30 mins  ███████████████████████▓░   94.46 %
+Python         1 hr 26 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 %
+Markdown       23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.17 %
+Bash           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 Figma Design   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
 
