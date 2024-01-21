@@ -18,9 +18,9 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other   32 hrs 19 mins  █████████████████████████   99.55 %
-YAML    7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 %
-Bash    1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+Other   42 hrs 33 mins  █████████████████████████   99.65 %
+YAML    7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 %
+Bash    1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 ```
 
 <!--END_SECTION:waka-->
