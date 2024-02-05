@@ -18,11 +18,9 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other      10 hrs 41 mins  ████████████████████████▒   97.92 %
-Assembly   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.20 %
-Bash       1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 %
-Markdown   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
-INI        1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
+Other      6 hrs 19 mins   ████████████████████████▒   97.63 %
+Assembly   7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.03 %
+Markdown   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 %
 ```
 
 <!--END_SECTION:waka-->
