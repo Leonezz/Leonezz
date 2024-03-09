@@ -18,11 +18,11 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other          54 hrs 57 mins  █████████████████████████   99.48 %
-Markdown       12 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
+Other          55 hrs 20 mins  █████████████████████████   99.35 %
+Markdown       12 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
+Makefile       3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
 JSON           1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
 Bash           1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
-TypeScript     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
 ```
 
 <!--END_SECTION:waka-->
