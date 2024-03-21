@@ -18,10 +18,10 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other       24 hrs 38 mins  ████████████████████████▓   99.11 %
-TeX         8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Batchfile   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
-Markdown    1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
+Other       28 hrs 3 mins   ████████████████████████▒   97.34 %
+Markdown    34 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.99 %
+TeX         8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 %
+Batchfile   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.18 %
 ```
 
 <!--END_SECTION:waka-->
