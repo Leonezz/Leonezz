@@ -18,9 +18,9 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other       19 hrs 44 mins  ████████████████████████░   96.39 %
-Markdown    40 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.32 %
-Batchfile   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.28 %
+Other       16 hrs 15 mins  ████████████████████████░   96.11 %
+Markdown    39 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.86 %
+Batchfile   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 ```
 
 <!--END_SECTION:waka-->
