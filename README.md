@@ -18,8 +18,9 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other      13 hrs 11 mins  ██████████████████████▓░░   90.06 %
-Markdown   1 hr 27 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.94 %
+Other      22 hrs 22 mins  ███████████████████████▒░   93.84 %
+Markdown   1 hr 27 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.11 %
+Bash       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
 ```
 
 <!--END_SECTION:waka-->
