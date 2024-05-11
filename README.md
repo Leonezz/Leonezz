@@ -18,8 +18,9 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other   47 mins         ████████████████████████░   95.73 %
-TOML    2 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.27 %
+Other   47 mins         ██████████████████████▓░░   90.79 %
+conf    2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.16 %
+TOML    2 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 %
 ```
 
 <!--END_SECTION:waka-->
