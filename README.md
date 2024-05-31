@@ -18,7 +18,7 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other   6 hrs 39 mins   █████████████████████████   99.83 %
+Other   6 hrs 33 mins   █████████████████████████   99.83 %
 C++     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
 ```
 
