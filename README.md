@@ -18,8 +18,8 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other   7 hrs 21 mins   █████████████████████████   99.85 %
-C++     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
+Other   5 hrs 8 mins    █████████████████████████   99.78 %
+C++     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 %
 ```
 
 <!--END_SECTION:waka-->
