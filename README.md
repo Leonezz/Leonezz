@@ -18,8 +18,11 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Other   14 hrs 16 mins  █████████████████████████   99.40 %
-conf    5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.60 %
+Other       12 hrs 51 mins  ███████████████████████▒░   93.57 %
+C++         31 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.76 %
+sshconfig   11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
+gitconfig   5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.70 %
+conf        5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 %
 ```
 
 <!--END_SECTION:waka-->
