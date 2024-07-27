@@ -18,11 +18,7 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Lua         30 mins         █████████████████████░░░░   84.60 %
-Other       2 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 %
-C++         2 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.92 %
-JSON        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 %
-gitignore   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
