@@ -10,6 +10,7 @@ Currently working on:
 - typescript
 - React
 - C++
+- Rust
 
 📫 Feel free to contact me through:
 
