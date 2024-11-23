@@ -19,8 +19,7 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Bash   1 min           █████████████████████▒░░░   85.19 %
-zsh    0 secs          ███▓░░░░░░░░░░░░░░░░░░░░░   14.81 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
