@@ -19,9 +19,7 @@ Currently working on:
 <!--START_SECTION:waka-->
 
 ```txt
-Rust    1 min           ██████████████▓░░░░░░░░░░   59.29 %
-TOML    0 secs          ████████░░░░░░░░░░░░░░░░░   31.43 %
-Other   0 secs          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.29 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
