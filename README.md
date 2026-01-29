@@ -2,15 +2,12 @@
 
 [![](https://github-profile-trophy.vercel.app/?username=Leonezz)](https://github.com/Leonezz)
 
-I am currently a postgraduate major in computer science, my research interests include Natural Language Processing, Parameter Efficient Transfer Learning and Information Extraction.
-
-I am also a person of passion in both technique and life, my passion involves modern C++, embedded systems, deep learning, reading books, watching movies, photography and making coffee.
-
 Currently working on:
 - typescript
 - React
 - C++
 - Rust
+- Media Streaming
 
 📫 Feel free to contact me through:
 
