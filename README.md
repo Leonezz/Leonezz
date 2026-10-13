@@ -34,7 +34,7 @@ A local-first reader for articles, newsletters, papers, and PDFs. Highlights, no
 macOS · Alpha
 
 [![Quire stars](https://img.shields.io/github/stars/Leonezz/quire?style=flat&label=stars&labelColor=30363d&color=8a6b3e)](https://github.com/Leonezz/quire/stargazers)
-[![Quire release](https://img.shields.io/github/v/release/Leonezz/quire?style=flat&label=release&labelColor=30363d&color=4f7564&display_name=tag&sort=semver&include_prereleases=true)](https://github.com/Leonezz/quire/releases)
+[![Quire release](https://img.shields.io/github/v/release/Leonezz/quire?style=flat&label=release&labelColor=30363d&color=4f7564&display_name=tag&sort=semver&include_prereleases)](https://github.com/Leonezz/quire/releases)
 
 ### [Tasks Timeline for Obsidian](https://github.com/Leonezz/tasks-timeline-obsidian)
 
