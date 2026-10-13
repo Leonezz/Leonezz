@@ -1,0 +1,291 @@
+name: Refresh profile visuals
+
+# Generate and validate real profile images before publishing the README.
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['.github/workflows/profile-visuals.yml']
+  schedule:
+    - cron: '23 3 * * *' # Daily at 03:23 UTC; scheduling is best-effort.
+
+permissions: {}
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  generate:
+    if: >-
+      github.repository == 'Leonezz/Leonezz' &&
+      github.event.repository.private == false &&
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    outputs:
+      artifact_id: ${{ steps.upload.outputs.artifact-id }}
+    steps:
+      # No repository checkout is needed for generation. Third-party generators
+      # run here with a read-only token, never in the write-enabled publisher.
+      - name: Prepare static city palettes
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          palettes = [
+              {
+                  "type": "normal",
+                  "fileName": "contributions-light.svg",
+                  "backgroundColor": "#ffffff",
+                  "foregroundColor": "#424c58",
+                  "strongColor": "#3d806b",
+                  "weakColor": "#6b7785",
+                  "radarColor": "#5b8b78",
+                  "growingAnimation": False,
+                  "contribColors": ["#edf1f3", "#d5e9df", "#a5cdbb", "#71a58e", "#3d806b"],
+              },
+              {
+                  "type": "normal",
+                  "fileName": "contributions-dark.svg",
+                  "backgroundColor": "#0d1117",
+                  "foregroundColor": "#c9d1d9",
+                  "strongColor": "#83c9ad",
+                  "weakColor": "#8b949e",
+                  "radarColor": "#83c9ad",
+                  "growingAnimation": False,
+                  "contribColors": ["#202b33", "#244338", "#386851", "#59997a", "#83c9ad"],
+              },
+          ]
+          Path(os.environ["RUNNER_TEMP"], "profile-city-settings.json").write_text(
+              json.dumps(palettes), encoding="utf-8"
+          )
+          PY
+
+      - name: Generate light activity card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          path: assets/stats-light.svg
+          token: ${{ github.token }}
+          # An explicit empty value loads core 2.2.0 from the action's frozen
+          # pnpm lockfile, instead of downloading the default floating "v2".
+          core_version: ''
+          fail_on_error: 'true'
+          options: >-
+            {"username":"Leonezz","custom_title":"GitHub activity","card_width":440,"hide_rank":true,"show_icons":true,"disable_animations":true,"include_all_commits":false,"title_color":"3d806b","icon_color":"3d806b","text_color":"424c58","bg_color":"ffffff","border_color":"d1d9e0"}
+
+      - name: Generate dark activity card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          path: assets/stats-dark.svg
+          token: ${{ github.token }}
+          core_version: ''
+          fail_on_error: 'true'
+          options: >-
+            {"username":"Leonezz","custom_title":"GitHub activity","card_width":440,"hide_rank":true,"show_icons":true,"disable_animations":true,"include_all_commits":false,"title_color":"83c9ad","icon_color":"83c9ad","text_color":"c9d1d9","bg_color":"0d1117","border_color":"30363d"}
+
+      - name: Generate light language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          path: assets/languages-light.svg
+          token: ${{ github.token }}
+          core_version: ''
+          fail_on_error: 'true'
+          options: >-
+            {"username":"Leonezz","custom_title":"Languages","card_width":340,"layout":"compact","langs_count":6,"size_weight":1,"count_weight":0,"disable_animations":true,"title_color":"3d806b","icon_color":"3d806b","text_color":"424c58","bg_color":"ffffff","border_color":"d1d9e0"}
+
+      - name: Generate dark language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          path: assets/languages-dark.svg
+          token: ${{ github.token }}
+          core_version: ''
+          fail_on_error: 'true'
+          options: >-
+            {"username":"Leonezz","custom_title":"Languages","card_width":340,"layout":"compact","langs_count":6,"size_weight":1,"count_weight":0,"disable_animations":true,"title_color":"83c9ad","icon_color":"83c9ad","text_color":"c9d1d9","bg_color":"0d1117","border_color":"30363d"}
+
+      - name: Generate static contribution cities
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: Leonezz
+          MAX_REPOS: '100'
+          SETTING_JSON: ${{ runner.temp }}/profile-city-settings.json
+
+      - name: Collect only the two requested city images
+        run: |
+          set -euo pipefail
+          install -m 0644 profile-3d-contrib/contributions-light.svg assets/contributions-light.svg
+          install -m 0644 profile-3d-contrib/contributions-dark.svg assets/contributions-dark.svg
+
+      - name: Upload the six images
+        id: upload
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: profile-visuals
+          if-no-files-found: error
+          retention-days: 3
+          include-hidden-files: false
+          path: |
+            assets/stats-light.svg
+            assets/stats-dark.svg
+            assets/languages-light.svg
+            assets/languages-dark.svg
+            assets/contributions-light.svg
+            assets/contributions-dark.svg
+
+  publish:
+    needs: generate
+    if: >-
+      github.repository == 'Leonezz/Leonezz' &&
+      github.event.repository.private == false &&
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      # Only pinned GitHub-maintained actions execute in this job. contents:write
+      # is repository-wide; the allowlist below is defense in depth, not token scope.
+      - name: Check out the current default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          fetch-depth: 1
+          submodules: false
+          lfs: false
+
+      - name: Download this run's generated images outside the checkout
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          artifact-ids: ${{ needs.generate.outputs.artifact_id }}
+          merge-multiple: true
+          path: ${{ runner.temp }}/profile-visuals
+          digest-mismatch: error
+
+      - name: Validate the image allowlist and copy images
+        env:
+          ARTIFACT_DIR: ${{ runner.temp }}/profile-visuals
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, re, stat
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          source = Path(os.environ["ARTIFACT_DIR"])
+          checkout = Path(os.environ["GITHUB_WORKSPACE"]).resolve()
+          names = {
+              "stats-light.svg", "stats-dark.svg",
+              "languages-light.svg", "languages-dark.svg",
+              "contributions-light.svg", "contributions-dark.svg",
+          }
+          # upload-artifact strips the common assets/ directory from these paths.
+          if {p.name for p in source.iterdir()} != names:
+              raise SystemExit("Artifact must contain exactly the six approved images")
+          target_dir = checkout / "assets"
+          if target_dir.is_symlink() or (target_dir.exists() and not target_dir.is_dir()):
+              raise SystemExit("assets must be a real directory")
+          target_dir.mkdir(exist_ok=True)
+          validated = {}
+          blocked = {"script", "foreignobject", "iframe", "object", "embed", "image"}
+          for name in sorted(names):
+              item = source / name
+              if not stat.S_ISREG(item.lstat().st_mode):
+                  raise SystemExit(f"Not a regular file: {name}")
+              if not 100 <= item.stat().st_size <= 2_000_000:
+                  raise SystemExit(f"Unexpected image size: {name}")
+              data = item.read_bytes()
+              text = data.decode("utf-8")
+              if re.search(r"<!DOCTYPE|<!ENTITY", text, re.I):
+                  raise SystemExit(f"XML declarations are not permitted: {name}")
+              root = ET.fromstring(text)
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Not an SVG image: {name}")
+              for element in root.iter():
+                  local = element.tag.rsplit("}", 1)[-1].lower()
+                  if local in blocked:
+                      raise SystemExit(f"Active or external SVG element: {name}")
+                  for key, value in element.attrib.items():
+                      attr = key.rsplit("}", 1)[-1].lower()
+                      if attr.startswith("on") or (attr == "href" and not value.startswith("#")):
+                          raise SystemExit(f"Active or external SVG attribute: {name}")
+              if re.search(r"@import|javascript:", text, re.I):
+                  raise SystemExit(f"External or active SVG content: {name}")
+              for url in re.findall(r"url\(([^)]*)\)", text, re.I):
+                  if not url.strip(" \t\r\n\"'").startswith("#"):
+                      raise SystemExit(f"External SVG reference: {name}")
+              visible_text = " ".join(root.itertext()).lower()
+              if "something went wrong" in visible_text or "could not fetch" in visible_text:
+                  raise SystemExit(f"Generator returned an error card: {name}")
+              destination = target_dir / name
+              if destination.is_symlink() or (destination.exists() and not destination.is_file()):
+                  raise SystemExit(f"Unsafe destination: {name}")
+              validated[name] = data
+          # Validate all six before changing the checkout; none is executed.
+          for name, data in validated.items():
+              destination = target_dir / name
+              destination.write_bytes(data)
+              destination.chmod(0o644)
+          PY
+
+      - name: Commit only approved images when they changed
+        id: commit
+        run: |
+          set -euo pipefail
+          files=(
+            assets/stats-light.svg assets/stats-dark.svg
+            assets/languages-light.svg assets/languages-dark.svg
+            assets/contributions-light.svg assets/contributions-dark.svg
+          )
+          git add -- "${files[@]}"
+          git diff --cached --name-only -z | python3 -c '
+          import sys
+          allowed = {
+              b"assets/stats-light.svg", b"assets/stats-dark.svg",
+              b"assets/languages-light.svg", b"assets/languages-dark.svg",
+              b"assets/contributions-light.svg", b"assets/contributions-dark.svg",
+          }
+          changed = set(filter(None, sys.stdin.buffer.read().split(b"\0")))
+          if not changed <= allowed:
+              raise SystemExit("Refusing to commit a path outside the image allowlist")
+          '
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git -c core.hooksPath=/dev/null -c commit.gpgsign=false \
+            -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m 'chore: refresh profile visuals'
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
+      - name: Push the generated-image commit
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          # Supply credentials only for this push, without saving them in Git config.
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          GIT_CONFIG_COUNT=1 \
+          GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+          GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth" \
+            git -c core.hooksPath=/dev/null push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+          # No force push: a competing update fails safely; rerun from the latest branch.
