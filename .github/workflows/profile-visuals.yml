@@ -234,7 +234,12 @@ jobs:
               destination = target_dir / name
               if destination.is_symlink() or (destination.exists() and not destination.is_file()):
                   raise SystemExit(f"Unsafe destination: {name}")
-              validated[name] = data
+              # Upstream cards indent blank lines; remove only that formatting.
+              # Keep all nonblank lines (including SVG text) unchanged.
+              normalized = "\n".join(
+                  line if line.strip(" \t") else "" for line in text.splitlines()
+              ).strip("\n") + "\n"
+              validated[name] = normalized.encode("utf-8")
           # Validate all six before changing the checkout; none is executed.
           for name, data in validated.items():
               destination = target_dir / name
