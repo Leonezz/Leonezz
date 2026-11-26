@@ -25,7 +25,41 @@ I build tools for reading, planning, and working with AI agents.
 
 <sub>Public GitHub activity. Language shares reflect repository code size, not time spent coding.</sub>
 
+## AI Token Usage
+
+<p>
+  <a href="https://tokens.zhuwenq.cc/u/leonezz">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://tokens.zhuwenq.cc/u/leonezz/card.svg?theme=dark&width=520">
+      <source media="(prefers-color-scheme: light)" srcset="https://tokens.zhuwenq.cc/u/leonezz/card.svg?theme=light&width=520">
+      <img alt="Leonezz's AI Token Usage Dashboard Card" src="https://tokens.zhuwenq.cc/u/leonezz/card.svg?theme=light&width=520" width="520">
+    </picture>
+  </a>
+</p>
+
+<p>
+  <a href="https://tokens.zhuwenq.cc/u/leonezz">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://tokens.zhuwenq.cc/u/leonezz/chart.svg?type=heatmap&days=365&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://tokens.zhuwenq.cc/u/leonezz/chart.svg?type=heatmap&days=365&theme=light">
+      <img alt="Leonezz's 365-Day AI Token Usage Calendar" src="https://tokens.zhuwenq.cc/u/leonezz/chart.svg?type=heatmap&days=365&theme=light" width="830">
+    </picture>
+  </a>
+</p>
+
+<sub>Live telemetry synced by <a href="https://github.com/Leonezz/token-island">Token Island</a>. <a href="https://tokens.zhuwenq.cc/u/leonezz">Open full dashboard →</a></sub>
+
 ## Selected projects
+
+### [Token Island](https://github.com/Leonezz/token-island)
+
+Local-first AI coding agent token tracker with a native macOS Dynamic Island widget, local telemetry dashboard, and embeddable GitHub README badges and charts.
+
+macOS · Cloudflare Workers
+
+[![Token Island stars](https://img.shields.io/github/stars/Leonezz/token-island?style=flat&label=stars&labelColor=30363d&color=8a6b3e)](https://github.com/Leonezz/token-island/stargazers)
+[![Token Island release](https://img.shields.io/github/v/release/Leonezz/token-island?style=flat&label=release&labelColor=30363d&color=4f7564&display_name=tag&sort=semver)](https://github.com/Leonezz/token-island/releases)
+[![Token Island tokens](https://tokens.zhuwenq.cc/u/leonezz/badge.svg?metric=tokens&label=tokens&theme=auto)](https://tokens.zhuwenq.cc/u/leonezz)
 
 ### [Quire](https://github.com/Leonezz/quire)
 
